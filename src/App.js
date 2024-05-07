@@ -2,10 +2,26 @@ import logo from './logo.svg';
 import './App.css';
 
 function Square() {
-  <>
-  return <button className="square">X</button>;
-  return <button className="square">X</button>;
+  
+  return (
+    <>
+    <div className="board-row">
+      <button className="square">X</button>
+      <button className="square">X</button>
+      <button className="square">X</button>
+    </div>
+    <div className="board-row">
+      <button className="square">X</button>
+      <button className="square">X</button>
+      <button className="square">X</button>
+    </div>
+    <div className="board-row">
+      <button className="square">X</button>
+      <button className="square">X</button>
+      <button className="square">X</button>
+    </div>
   </>
+  );
 }
 
 function MyButton() {
