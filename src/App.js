@@ -1,6 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 
+function Square() {
+  <>
+  return <button className="square">X</button>;
+  return <button className="square">X</button>;
+  </>
+}
+
 function MyButton() {
   return (
     <button>
@@ -25,6 +32,9 @@ function App() {
         <p>
           <MyButton />
         </p>
+        <>
+        <Square />
+        </>
       </header>
     </div>
   );
